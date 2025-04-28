@@ -1,0 +1,9 @@
+[build]
+  command = "bun run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_APP_URL = "https://my-figma-clone.netlify.app"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
